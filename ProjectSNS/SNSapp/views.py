@@ -52,3 +52,14 @@ def goodfunc(request, pk):
     post.good = post.good + 1
     post.save()
     return redirect('list')
+
+def readfunc(request, pk):
+    post = BoardModel.objects.get(pk=pk)
+    username = request.user.get_username()
+    if username in post.readtext:
+        return redirect('list')
+    else:
+        post.read += 1
+        post.readtext = post.readtext + ' ' + username
+        post.save()
+        return redirect('list')

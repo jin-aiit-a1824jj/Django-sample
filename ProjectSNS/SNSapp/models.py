@@ -9,4 +9,4 @@ class BoardModel(models.Model):
   images = models.ImageField(upload_to='')
   good = models.IntegerField()
   read = models.IntegerField()
-  readtext = models.CharField(max_length=200)
+  readtext = models.TextField()
