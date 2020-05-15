@@ -9,3 +9,8 @@ python3 manage.py migrate
 python3 manage.py runserver
 http://localhost:8000/admin
 python3 manage.py createsuperuser
+
+
+https://getbootstrap.com/docs/4.5/getting-started/introduction/
+https://getbootstrap.com/docs/4.5/components/alerts/
+
