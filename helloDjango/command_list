@@ -2,3 +2,5 @@ python3 -m django startproject helloDjango
 python3 manage.py runserver
 python3 manage.py migrate
 python3 manage.py runserver
+
+python3 manage.py startapp helloworldadpp
