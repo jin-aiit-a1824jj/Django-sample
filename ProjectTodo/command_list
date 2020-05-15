@@ -17,3 +17,8 @@ https://getbootstrap.com/docs/4.5/components/alerts/
 
 https://getbootstrap.com/docs/4.5/components/jumbotron/
 https://getbootstrap.com/docs/4.5/components/buttons/
+
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
