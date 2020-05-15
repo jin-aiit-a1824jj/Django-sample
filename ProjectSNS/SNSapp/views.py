@@ -42,3 +42,7 @@ def listfunc(request):
 def logoutfunc(request):
     logout(request)
     return redirect('login')
+
+def detailfunc(request, pk):
+    object = BoardModel.objects.get(pk=pk)
+    return render(request, 'detail.html', {'object': object})
