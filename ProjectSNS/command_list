@@ -8,3 +8,8 @@ https://getbootstrap.com/docs/4.5/examples/sign-in/
 python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py createsuperuser
+
+
+pip3 install pillow
+python3 manage.py makemigrations
+python3 manage.py migrate
